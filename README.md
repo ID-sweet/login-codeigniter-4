@@ -25,8 +25,16 @@ to your `app` folder. The affected files can be copied or merged from
 
 ## Setup
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
+1. Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
+
+2. Create Database 'tbl_users'
+
+3. Import UserSeeder (App/Database/Seeds/) = php spark seeds:UserSeeder
+
+4. In terminal write 'php spark serve'
+
+5. Write in Browser 'localhost:8080'
 
 ## Important Change with index.php
 
