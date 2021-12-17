@@ -24,7 +24,7 @@
                     <div class="card border-0 shadow rounded-3 my-5">
                         <div class="card-body p-4 p-sm-5">
                             <div class="text-center mb-5">
-                                <img src="<?php echo base_url() ?>/UMPPcilik.png" width="30%" alt="">
+                                <img src="<?php echo base_url() ?>/yourlogo.png" width="30%" alt="">
                             </div>
                             <?php if (isset($validation)) : ?>
                                 <div class="col-12">
